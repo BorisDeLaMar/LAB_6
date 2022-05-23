@@ -3,29 +3,23 @@ package ru.itmo.client.Commands;
 import ru.itmo.client.Command;
 import ru.itmo.client.ServerAPI;
 import ru.itmo.client.ServerAPIImpl;
-import ru.itmo.common.LAB5.src.GivenClasses.Worker;
 import ru.itmo.common.connection.Response;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class Update implements Command{
     public Response update(BufferedReader on) throws IOException{
         System.out.print("Enter id: ");
-        Worker w = new Worker();
-        try {
-            long id = Long.parseLong(on.readLine().split(" ")[0]);
-            w.setTemporaryID(id);
-            Add add = new Add();
-            add.add_read(w, on);
+        String id = on.readLine().split(" ")[0];
 
-            ServerAPI serverAPI = new ServerAPIImpl();
-            return serverAPI.update(w);
-        }
-        catch(NumberFormatException e){
-            System.out.println(e.getMessage());
-        }
-        return null;
+        Add add = new Add();
+        ArrayList<String> arr = add.add(on);
+        arr.add(id);
+
+        ServerAPI serverAPI = new ServerAPIImpl();
+        return serverAPI.update(arr);
     }
 
     @Override

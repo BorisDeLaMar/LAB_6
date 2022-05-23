@@ -3,6 +3,7 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 
 public class Request implements Serializable {
     public final String commandName;
@@ -11,6 +12,10 @@ public class Request implements Serializable {
     public Request(String commandName, Object argument){
         this.commandName = commandName;
         this.argument = new Gson().toJson(argument);
+    }
+    public Request(String commandName, ArrayList<String> arguments){
+        this.commandName = commandName;
+        this.argument = new Gson().toJson(arguments);
     }
 
     public static Request fromJson(String json){

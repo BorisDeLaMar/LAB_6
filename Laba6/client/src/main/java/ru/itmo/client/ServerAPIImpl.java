@@ -1,23 +1,21 @@
 package ru.itmo.client;
 
 import ru.itmo.common.connection.*;
-import ru.itmo.common.LAB5.src.GivenClasses.*;
-import ru.itmo.common.LAB5.src.Comms.*;
 
 import java.io.IOException;
 import java.net.*;
 import java.nio.ByteBuffer;
 import java.nio.channels.NotYetConnectedException;
-import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 
 public class ServerAPIImpl implements ServerAPI{
     @Override
-    public Response add(Worker w) {
+    public Response add(ArrayList<String> args) {
         Request request = new Request(
                 "add",
-                w
+                args
         );
 
         try {
@@ -30,10 +28,10 @@ public class ServerAPIImpl implements ServerAPI{
         }
     }
     @Override
-    public Response add_if_min(Worker w) {
+    public Response add_if_min(ArrayList<String> args) {
         Request request = new Request(
                 "add_if_min",
-                w
+                args
         );
 
         try {
@@ -131,7 +129,7 @@ public class ServerAPIImpl implements ServerAPI{
         }
     }
     @Override
-    public Response filter_less_than_status(Status state){
+    public Response filter_less_than_status(String state){
 
         Request request = new Request(
                 "filter_less_than_status",
@@ -221,11 +219,11 @@ public class ServerAPIImpl implements ServerAPI{
         }
     }
     @Override
-    public Response update(Worker w){
+    public Response update(ArrayList<String> args){
 
         Request request = new Request(
                 "update",
-                w
+                args
         );
 
         try {
@@ -235,33 +233,6 @@ public class ServerAPIImpl implements ServerAPI{
             return null;
         }
     }
-    /*
-    @Override
-    public Response procedure(){
-        Request request = new Request("procedure", null);
-
-        try {
-            return sendToServer(request);
-        } catch (IOException e) {
-            //handle error
-            System.out.println(e.getMessage());
-            return null;
-            //throw new RuntimeException(e);
-        }
-    }
-    @Override
-    public Response read(String filename){
-        Request request = new Request("read", filename);
-
-        try {
-            return sendToServer(request);
-        } catch (IOException e) {
-            //handle error
-            System.out.println(e.getMessage());
-            return null;
-            //throw new RuntimeException(e);
-        }
-    }*/
 
     private Response sendToServer(Request request) throws IOException {
         SocketChannel client = null;
@@ -269,8 +240,6 @@ public class ServerAPIImpl implements ServerAPI{
         try {
             client = SocketChannel.open();
             client.connect(address);
-            //client.configureBlocking(false);
-            //socket.socket().bind(new InetSocketAddress("localhost", 65100));
         }
         catch(UnknownHostException e){
             System.out.println(e.getMessage());

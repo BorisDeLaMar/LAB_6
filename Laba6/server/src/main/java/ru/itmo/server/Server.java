@@ -1,8 +1,8 @@
 package ru.itmo.server;
 
 //import javafx.concurrent.Worker;
-import ru.itmo.common.LAB5.src.Comms.*;
-import ru.itmo.common.LAB5.src.GivenClasses.Worker;
+import src.Comms.*;
+import src.GivenClasses.Worker;
 import ru.itmo.common.connection.*;
 
 import java.net.*;
@@ -13,8 +13,6 @@ import java.nio.channels.SocketChannel;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.Objects;
-import java.util.Scanner;
 
 public class Server {
     private final static DAO<Worker> dao = new DataDAO();
@@ -103,6 +101,7 @@ public class Server {
         }
         catch(IOException e) {
             System.out.println(e.getMessage());
+            Exit.setExit(false);
         }
     }
     private static void procedure(){
