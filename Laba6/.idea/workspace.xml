@@ -4,157 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e4fa638-5839-44a9-89f5-95d550ca87f2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+    <list default="true" id="7e4fa638-5839-44a9-89f5-95d550ca87f2" name="Changes" comment="DOMOISOLO">
+      <change afterPath="$PROJECT_DIR$/../Lab7/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7/gradlew.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/classes/java/main/ru/itmo/client/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/classes/java/main/ru/itmo/client/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/classes/java/main/ru/itmo/client/Commands/Add.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/classes/java/main/ru/itmo/client/Commands/Add.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/classes/java/main/ru/itmo/client/Commands/AddIfMin.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/classes/java/main/ru/itmo/client/Commands/AddIfMin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/classes/java/main/ru/itmo/client/Commands/FilterStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/classes/java/main/ru/itmo/client/Commands/FilterStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/classes/java/main/ru/itmo/client/Commands/Update.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/classes/java/main/ru/itmo/client/Commands/Update.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/classes/java/main/ru/itmo/client/ServerAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/classes/java/main/ru/itmo/client/ServerAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/classes/java/main/ru/itmo/client/ServerAPIImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/classes/java/main/ru/itmo/client/ServerAPIImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/ru/itmo/client/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/ru/itmo/client/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/ru/itmo/client/Commands/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/ru/itmo/client/Commands/Add.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/ru/itmo/client/Commands/AddIfMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/ru/itmo/client/Commands/AddIfMin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/ru/itmo/client/Commands/FilterStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/ru/itmo/client/Commands/FilterStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/ru/itmo/client/Commands/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/ru/itmo/client/Commands/Update.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/ru/itmo/client/ServerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/ru/itmo/client/ServerAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/ru/itmo/client/ServerAPIImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/ru/itmo/client/ServerAPIImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/AbstractHelp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/Add.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/AddIfMin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/Clear.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/Commands.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/DAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/DataDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/ExecuteScript.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/Exit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/FilterStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/GistStaff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/Help.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/History.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/Info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/PrintDescending.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/PrintUniqueStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/Remove.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/RemoveLower.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/Save.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/Show.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/Sort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Comms/Update.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Exceptions/LimitException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Exceptions/NullException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/Gist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/GivenClasses/AbstractWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/GivenClasses/Coordinates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/GivenClasses/Organization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/GivenClasses/OrganizationType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/GivenClasses/Position.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/GivenClasses/Status.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/LAB5/src/GivenClasses/Worker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/connection/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/ru/itmo/common/connection/Request.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/libs/common-0.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/libs/common-0.1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/.idea/artifacts/Lab5_main_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/.vs/Lab5/v16/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/.vs/ProjectSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/.vs/VSWorkspaceState.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/.vs/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.urischeme.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.16.1.20210603-1006.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.ui.intro/introstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.metadata/version.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/LAB5.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/AbstractHelp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/Add.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/AddIfMin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/Clear.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/Commands.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/DAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/DataDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/ExecuteScript.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/Exit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/FilterStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/GistStaff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/Help.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/History.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/Info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/PrintDescending.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/PrintUniqueStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/Remove.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/RemoveLower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/Save.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/Show.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/Sort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Comms/Update.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Exceptions/LimitException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Exceptions/NullException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/Gist.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/GivenClasses/AbstractWorker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/GivenClasses/Coordinates.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/GivenClasses/Organization.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/GivenClasses/OrganizationType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/GivenClasses/Position.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/GivenClasses/Status.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/GivenClasses/Worker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/LAB5/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/connection/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/connection/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/ru/itmo/common/out/artifacts/Lab5_main_jar/Lab5-main.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build/classes/java/main/ru/itmo/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/classes/java/main/ru/itmo/server/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/ru/itmo/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/ru/itmo/server/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,6 +106,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="27ym7uZLXE4qbJWJDAQ08zTHwrE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -265,7 +128,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -437,7 +300,39 @@
       <option name="presentableId" value="Default" />
       <updated>1650300536455</updated>
     </task>
+    <task id="LOCAL-00001" summary="DOMOI">
+      <created>1653323867726</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653323867726</updated>
+    </task>
+    <task id="LOCAL-00002" summary="DOMOISOLO">
+      <created>1653323922840</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653323922840</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DOMOI" />
+    <MESSAGE value="DOMOISOLO" />
+    <option name="LAST_COMMIT_MESSAGE" value="DOMOISOLO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
